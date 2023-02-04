@@ -23,10 +23,13 @@ button {
   text-align: center; }
 
 .title {
-  background-color: #00ffff;
+  background: url("../images/title.jpg") no-repeat;
+  background-size: cover;
   padding: 20px 0;
   margin-bottom: 15px; }
   .title h2 {
+    color: yellow;
+    letter-spacing: 2px;
     text-transform: uppercase; }
 
 .people_list, .planets_list, .transport_list {
